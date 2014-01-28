@@ -1,0 +1,65 @@
+.navbar-inverse {
+    background-color: #000000;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 65px;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.navbar-inverse .navbar-nav {
+	padding: 10px 0;
+}
+
+.navbar-inverse .navbar-nav > li {
+	border-left: 1px solid white;
+}
+.navbar-inverse .navbar-nav > li:first-child {
+	border-left: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background: black;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+}
+
+
+
+.upload-document-form {
+	background: #f4f4ea;
+	border-radius: 3px;
+	padding-top: 12px;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+#choose-file {width: 200px;}
+
+.default-header {
+    text-transform: uppercase;
+}
+
