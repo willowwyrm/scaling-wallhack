@@ -59,7 +59,123 @@
 
 #choose-file {width: 200px;}
 
+
 .default-header {
     text-transform: uppercase;
 }
+
+.close {
+    opacity: 1;
+}
+
+.modal-header {
+    border-bottom: 1px solid #000000;
+ 
+}
+
+.replace-label {
+    font-weight: normal !important;
+    background: #eeeeee;
+    padding: 10px;
+}
+
+.dl-replace dd {
+    margin-left: 40px;
+}
+
+.dl-replace dt {width: 20px;
+vertical-align: middle;}
+
+.replace-body {
+    padding-bottom: 0px;
+}
+
+.replace-footer {
+    border-top: none;
+    margin-top: 0px;
+    padding: 0px 20px 20px;
+    text-align: right;
+
+}
+
+.table-documents > tbody > tr:first-child > td {
+border-top: none;
+}
+
+.table-documents > tbody > tr:last-child > td {
+border-bottom: 1px solid #dddddd;
+}
+
+
+
+.table-documents td:first-child {line-height: 2.3;
+}
+
+.administration-form {
+    background: #f4f4ea;
+}
+
+
+ .administration-input {
+    /*padding-left: 0px;*/
+
+}
+.NDA-control-label {
+    line-height: 2.5;
+}
+
+#NDA-choose-file {
+    display: inline-block;
+    width: 200px;
+    text-align: right !important;
+     line-height: 2.5;
+}
+
+.tr-background:first-child > td {
+border-top: none;
+
+}
+
+.tr-background > td {
+    background: #f4f4ea;
+border-top: 10px solid white !important;
+border-bottom: none;
+}
+
+.tr-border:first-of-type > td {
+border-top: none !important;
+    }
+
+.tr-border > td {
+    border-top: none !important;
+border-bottom: 1px solid #dddddd !important;
+}
+
+.NDA-link {
+    line-height: 2.7;
+}
+
+.rectails-delete {
+line-height: 6.5;
+}
+
+.rectails-border {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+.rectails-buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+    padding-right: 0px;
+}
+
 

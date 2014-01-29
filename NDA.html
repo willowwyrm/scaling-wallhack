@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<title>NDA</title>
+</head>
+<body>
+
+
+
+	<nav class="navbar navbar-inverse" role="navigation">
+		<a class="navbar-brand" href="#">Contract Analyzer</a>
+		<ul class="nav navbar-nav">
+			<li><a href="#">UPLOAD</a></li>
+			<li  class="active"><a href="#">LIST OF DOCUMENTS</a></li>
+			<li><a href="#">ADMIN</a></li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<span class="glyphicon glyphicon-user"></span>
+					USERNAME
+					<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Separated link</a></li>
+					<li class="divider"></li>
+					<li><a href="#">One more separated link</a></li>
+				</ul>
+			</li>
+		</ul>
+
+
+	</nav>
+
+	<div class="container">
+		<div class="col-sm-6">
+			<h3>NDA</h3>
+			<table class="table table-NDA">
+				<tr class="tr-background">
+					<td>						
+						<label for="NDA-input-file" class="col-sm-4 control-label NDA-control-label">INPUT file</label>
+						<div class="form-group">
+							<button type="button" class="btn btn-primary pull-right col-sm-2">Upload</button>
+							<div class="NDA-choose-file"><input type="file" id="NDA-input-file"></div>
+
+						</div>
+
+
+					</td>
+				</tr>
+				<tr class="tr-background">
+					<td>						
+						<label for="NDA-output-file" class="col-sm-4 control-label NDA-control-label">OUTPUT file</label>
+						<div class="form-group">
+							<button type="button" class="btn btn-primary pull-right col-sm-2">Upload</button>
+							<div class="NDA-choose-file"><input type="file" id="NDA-output-file"></div>
+
+						</div>
+
+					</td>
+				</tr>
+				<tr class="tr-background">
+					<td>						
+						<label for="clause-name" class="col-sm-4 control-label NDA-control-label">Clause name</label>
+						<div class="col-sm-6 administration-input">
+							<input type="text" class="form-control" id="clause-name">
+						</div>
+						<button type="button" class="btn btn-default col-sm-2">Add</button>
+					</td>
+				</tr>
+				<tr class="tr-border">
+					<td>
+						<a href="" class="col-sm-10 NDA-link">RECITALS</a>
+						<button type="button" class="btn btn-danger col-sm-2">Delete</button></td>
+					</tr>
+					<tr class="tr-border">
+						<td>
+							<a href="" class="col-sm-10 NDA-link">OPERATIVE</a>
+							<button type="button" class="btn btn-danger col-sm-2">Delete</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+
+			<script src="js/jquery.min.js"></script>
+
+			<script src="js/bootstrap.min.js"></script>
+		</body>
+		</html>

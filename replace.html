@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<title>Replace</title>
+</head>
+<body>
+
+	<button class="btn btn-primary btn-xs" type="button" data-toggle="modal" data-target="#myModal">
+<span class="glyphicon glyphicon-transfer"></span>
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Replace #RECITALS</h4>
+      </div>
+      <div class="modal-body replace-body">
+        <h4>Lorem</h4>
+        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, dolor corporis animi labore cum sed aliquam. Eos, ab, fugiat, nesciunt consequuntur ad hic ipsa impedit commodi molestias amet magni libero!<br/><br/>
+        	<h4>Lorem</h4>
+
+		<dl class="dl-horizontal dl-replace">
+			<dt><input type="radio" name="" id="alternative-1"></dt>
+			<dd><label for="alternative-1" class="replace-label">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, tempore, cum molestias totam nesciunt blanditiis accusantium pariatur distinctio ut iusto recusandae debitis officiis! In at enim nulla ratione qui molestias quibusdam est vero omnis. Illum id repellat molestias vitae corrupti.</label></dd>
+			<dt><input type="radio" name="" id="alternative-2"></dt>
+			<dd><label for="alternative-2" class="replace-label">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, obcaecati, labore, itaque quidem accusamus aliquam porro tempore sint nam natus aliquid eum molestias delectus ipsa doloribus cumque tempora similique autem dolorem illo omnis eos rerum esse ipsam possimus quisquam quasi.</label></dd>
+		</dl>
+
+      </div>
+      <div class="modal-footer replace-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Replace</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<script src="js/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
